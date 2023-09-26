@@ -1,0 +1,66 @@
+import numpy as np.
+
+a= np.array([1, 2, 3])
+
+mint ("type: %s" % type (a)) mint ("shape: %s" %. a. shape )
+
+pint (a[o],a[i], a[2])
+
+print (a)
+
+b= np.array([[1,2,3], [4,5,6]])
+
+print ("In shape of b:%, 16 shape)
+
+mint (b[0,0], b[0,1], b[1,0]) a = np. zeros (C2,82))
+
+Mint ("All geras matun: In %s" % a) b= np.ones (C1,2))
+
+print ("In All ones matrix: In % 5% b)
+
+dl= np.eye(2) print ("In Identity matrix: In % 5%d)
+
+e= np.random.ranclom (C2,2))
+
+print ("In random matrix: In 1.5"xe) print ("Vectorized sum example In")
+
+x = np.array([[1, 2], [3,4]]]
+
+print ("x: Ins "Y.x) print ("Sum: "%s" %. np. sum (x))
+
+print("summ axis=0:7.5 %//np. ssum (x, axis=0)) mint ("sum ani's = 1: "%/%s" %. np. sum (x, cixis = 1))
+a=mp.arange(c0000) b = np.arange (10000)
+
+dp=mp.dot (a,b)
+
+print ("Dot proclued: "/%s In" "%dp )
+
+outer (a,b)
+
+op= np. print ("In outer product: 1.5 In %op)
+
+expr = np.multiply (a,b).
+
+print ("In Element ulise proceed: %-s \n" +/-ep)
+
+Matrix Transformation
+
+import numpy as np.
+
+x= np.array([[1, 2], [3,4]])
+
+print ("Original x: \n %s" %x) print (" In Transpose of x: In%%s" %%x.T)
+
+SVD using Python
+
+fromm numpy import array from scipy. linaly import svd
+
+A = assay ([[1, 2], [3,4], [5,6]])
+
+Mint ("A: 11%5 "%A)
+
+U, S, VT Sud CA) Print ("In U: In%%s" %)
+
+print ("In 5: In %s" %s)
+
+print ("In v^T: Ints %VT)
